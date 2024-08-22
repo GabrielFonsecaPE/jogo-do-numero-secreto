@@ -4,7 +4,7 @@
 //let paragrafo = document.querySelector('p');
 //paragrafo.innerHTML = 'Escolha um número entre 1 à 10';
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 mensagemInicial();
@@ -18,7 +18,7 @@ function exibirTextoNaTela (tag, texto){
 
 function mensagemInicial(){
 exibirTextoNaTela ('h1', 'Jogo do número secreto');
-exibirTextoNaTela ('p', 'Digite um número de 1 a 10');
+exibirTextoNaTela ('p', 'Digite um número de 1 a 100');
 }
 
 //função sem parametros e sem retorno. executa um comando.
